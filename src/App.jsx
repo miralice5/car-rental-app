@@ -1,18 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { Switch } from 'react-router';
-import Home from './pages/Home';
-import CarList from './pages/CarList';
+import Footer from "./components/sections/Footer/Footer";
+import Navbar from "./components/sections/Navbar/Navbar";
 
 function App() {
   return (
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/cars" component={CarList} />
-          {/* Add more routes for other pages */}
-        </Switch>
-      </Router>
+      <main className="min-h-screen relative bg-gray-50 pb-10">
+          <div className="container px-4">
+              <div className="flex flex-wrap px-4">
+                  <div className="w-full lg:w-2/3 ">
+                      <Navbar />
+                  </div>
+              </div>
+          </div>
+          <Footer />
+      </main>
   );
 }
 
