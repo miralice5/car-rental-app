@@ -6,18 +6,23 @@ import {
     Switch,
 } from "react-router-dom";
 import About from "../../pages/About/About";
-import Service from "../../pages/Service/Service";
+import VehicleModels from "../../pages/VehicleModels/VehicleModels";
 
 const navbarData = [
     {
         id: 1,
+        title: "Home",
+        to: "/home",
+    },
+    {
+        id: 2,
         title: "About",
         to: "/about",
     },
     {
-        id: 2,
-        title: "Services",
-        to: "/services",
+        id: 3,
+        title: "Vehicle Models",
+        to: "/vehiclemodels",
     },
 ];
 
@@ -39,8 +44,8 @@ const Navbar = () => {
                 <Route path="/about">
                     <About/>
                 </Route>
-                <Route path="/services">
-                    <Service />
+                <Route path="/vehiclemodels">
+                    <VehicleModels />
                 </Route>
             </Switch>
         </Router>
@@ -55,8 +60,8 @@ const LinkItem = (props) => {
         <li className="m-3 lg:mx-5">
             <NavLink
                 to={to}
-                activeClassName="text-purple-600"
-                className="text-gray-800 text-medium hover:text-purple-600"
+                activeClassName="text-yellow-500"
+                className="text-gray-800 text-medium hover:text-yellow-500"
             >
                 {title}
             </NavLink>

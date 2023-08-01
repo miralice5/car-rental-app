@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServiceItem = (props) => {
+const VehicleModelsItem = (props) => {
   const { icon, title, description } = props.service;
   return (
     <div className="w-full lg:w-1/2">
@@ -15,4 +15,4 @@ const ServiceItem = (props) => {
   );
 };
 
-export default ServiceItem;
+export default VehicleModelsItem;

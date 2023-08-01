@@ -1,7 +1,7 @@
 import React from "react";
 import { FaCode, FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-import ServiceItem from "./ServiceItem";
+import VehicleModelsItem from "./VehicleModelsItem";
 
 const serviceData = [
   {
@@ -13,16 +13,16 @@ const serviceData = [
   },
 ];
 
-const Service = () => {
+const VehicleModels = () => {
   return (
     <section className="pb-10">
       <div className="flex flex-wrap md:px-4">
         {serviceData.map((service, id) => (
-          <ServiceItem service={service} key={id} />
+          <VehicleModelsItem service={service} key={id} />
         ))}
       </div>
     </section>
   );
 };
 
-export default Service;
+export default VehicleModels;
