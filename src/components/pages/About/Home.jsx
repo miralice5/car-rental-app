@@ -7,6 +7,7 @@ import jeepCherokee from "../../../assets/images/2018-Jeep-Cherokee-Firecracker-
 import volkswagen from "../../../assets/images/main-car.png";
 import durango from "../../../assets/images/durango.png";
 import heroBg from "../../../assets/images/hero-bg.png";
+import Banner from "../Banner/Banner";
 const carImages = [dodgeChallenger, durango, jeepCherokee, volkswagen];
 
 const Home = () => {
@@ -82,7 +83,19 @@ const Home = () => {
                   </div>
               </div>
           </div>
+          <div className="flex flex-wrap mb-6">
+              <div className="w-full">
+                  <div className="w-[80%]">
+                      <div className="w-full">
+                          <div className="text-center md:mx-2">
+                              <h3 className="text-2xl text-gray-800 font-medium mb-4">Plan your trip now</h3>
 
+                              <Banner />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </section>
   );
 };
