@@ -13,7 +13,7 @@ const Reservation = (props) => {
 
 
     return (
-        <div className="shadow-lg rounded p-6 bg-white mt-4">
+        <div className="shadow-md rounded p-6 bg-white mt-4">
             <h2 className="text-3xl text-gray-800 font-bold mb-4">Reservation Details</h2>
             <div className="grid grid-cols-2 gap-4">
                 <div>

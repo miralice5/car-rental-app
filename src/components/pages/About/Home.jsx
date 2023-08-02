@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Button from "./Button/Button";
 import Booking from "../Booking/Booking"
+import Plan from "../PlanSection/Plan"
 import dodgeChallenger from "../../../assets/images/Red-Dodge-Challenger-PNG-Pic.png"; // Replace with the actual path to your car image
 import jeepCherokee from "../../../assets/images/2018-Jeep-Cherokee-Firecracker-Red.png";
 import volkswagen from "../../../assets/images/main-car.png";
@@ -30,7 +31,7 @@ const Home = () => {
 
     return (
       <section className="p-6">
-        <div className="flex flex-wrap md:px-4 mb-8">
+        <div className="flex flex-wrap md:px-4 mb-6">
           <div className="w-full md:w-1/2 leading-relaxed">
             <div className="md:mx-4">
               <h3 className="text-2xl text-gray-800 font-bold mb-4">Plan your trip now</h3>
@@ -55,7 +56,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap mb-16">
             <div className="w-full leading-relaxed">
                 <div className="md:mx-4">
                     <div className="w-full leading-relaxed">
@@ -66,6 +67,22 @@ const Home = () => {
                 </div>
             </div>
         </div>
+          <div className="flex flex-wrap mb-6">
+              <div className="w-full leading-relaxed">
+                  <div className="md:mx-4">
+                      <div className="w-full leading-relaxed">
+                          <div className="text-center md:mx-2">
+                              <h3 className="text-2xl text-gray-800 font-medium mb-4">Plan your trip now</h3>
+                              <h1 className="text-5xl text-gray-800 font-bold mb-12">
+                                  Quick & Easy Car Rentals
+                              </h1>
+                              <Plan />
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
       </section>
   );
 };
