@@ -1,30 +1,19 @@
 import React from "react";
-import { SiTailwindcss } from "react-icons/si";
-import BannerItem from "./BannerItem";
-
-const serviceData = [
-
-    {
-        id: 1,
-        title: "Let's Drive",
-        description:
-            "Whether you're hitting the open road, we've got you covered with our wide range of cars",
-    },
-];
+import banner from "../../../assets/images/R.jpg";
+import Plan from "../PlanSection/Plan";
 
 const Banner = () => {
     return (
-        <section className="pb-10">
-            <div className="min-w-screen bg-black">
-                <div className="container mx-auto">
-                    <div className="flex flex-wrap -mx-4">
-                {serviceData.map((banner, id) => (
-                    <BannerItem banner={banner} key={id} />
-                ))}
-                    </div>
+        <div className="h-48 w-full bg-gray-700">
+            <div className="flex items-center justify-center h-full mx-auto px-4 sm:px-8 md:px-12 lg:px-20">
+                <div className="text-center text-white">
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Save big with our cheap car rental!</h1>
+                    <p className="text-xl sm:text-2xl">Airport Pickup Or Nearest Pickup Center.{" "}
+                        <a className="text-red-500">24 Hour</a>
+                        {" "} Customer Support.</p>
                 </div>
-                    </div>
-        </section>
+            </div>
+        </div>
     );
 };
 
