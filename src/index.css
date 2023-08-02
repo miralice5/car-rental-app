@@ -7,3 +7,14 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+
+/* Replace .fade-in and .fade-out with your actual class names */
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
