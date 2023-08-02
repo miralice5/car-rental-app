@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "./Button/Button";
-import carImage from "../../../assets/images/main-car.png"; // Replace with the actual path to your car image
+import carImage from "../../../assets/images/Red-Dodge-Challenger-PNG-Pic.png"; // Replace with the actual path to your car image
 import heroBg from "../../../assets/images/hero-bg.png";
 const Home = () => {
   return (
