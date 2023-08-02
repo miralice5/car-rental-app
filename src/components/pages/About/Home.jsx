@@ -33,7 +33,7 @@ const Home = () => {
 
     return (
         <section>
-            <div className="flex flex-wrap md:px-6 mb-6">
+            <div className="flex flex-wrap md:px-6 px-4 mb-6">
                 <div className="w-full md:w-1/2 leading-relaxed">
                     <div className="md:mx-4">
                         <h3 className="text-2xl text-gray-800 font-bold mb-4">Plan your trip now</h3>
@@ -70,17 +70,15 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-wrap mb-6">
+            <div className="flex flex-wrap md:px-6 p-2 mb-6">
                 <div className="w-full leading-relaxed">
-                    <div className="md:mx-6">
-                        <div className="w-full leading-relaxed">
-                            <div className="text-center md:mx-2">
-                                <h3 className="text-2xl text-gray-800 font-medium mb-4">Plan your trip now</h3>
-                                <h1 className="text-5xl text-gray-800 font-bold mb-12">
-                                    Quick & Easy Car Rentals
-                                </h1>
-                                <Plan/>
-                            </div>
+                    <div className="w-full leading-relaxed">
+                        <div className="text-center md:mx-2">
+                            <h3 className="text-2xl text-gray-800 font-medium mb-4">Plan your trip now</h3>
+                            <h1 className="text-5xl text-gray-800 font-bold mb-12">
+                                Quick & Easy Car Rentals
+                            </h1>
+                            <Plan/>
                         </div>
                     </div>
                 </div>
