@@ -4,14 +4,14 @@ import carImage from "../../../assets/images/main-car.png"; // Replace with the 
 
 const About = () => {
   return (
-      <section className="py-8">
+      <section className="p-6">
         <div className="flex flex-wrap md:px-4">
           <div className="w-full md:w-1/2 leading-relaxed">
             <div className="md:mx-4">
               <h3 className="text-2xl text-gray-800 font-bold mb-4">Plan your trip now</h3>
               <h1 className="text-5xl text-gray-800 font-bold">
                 Save{" "}
-                <a className="text-yellow-500">big</a>
+                <a className="text-red-500">big</a>
                 {" "} with our car rental
               </h1>
               <p className=" my-4 text-gray-500">

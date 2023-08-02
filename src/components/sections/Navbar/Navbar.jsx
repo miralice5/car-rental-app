@@ -57,8 +57,8 @@ const Navbar = () => {
                         <li className="m-3 lg:mx-5">
                             <NavLink
                                 to="/signin" // Replace with your sign-in route
-                                activeClassName="text-yellow-500"
-                                className="text-gray-800 text-medium hover:text-yellow-500"
+                                activeClassName="text-red-500"
+                                className="text-gray-800 text-medium hover:text-red-500"
                             >
                                 Sign In
                             </NavLink>
@@ -66,8 +66,8 @@ const Navbar = () => {
                         <li className="m-3 lg:mx-5">
                             <NavLink
                                 to="/register" // Replace with your register route
-                                activeClassName="text-yellow-500"
-                                className="rounded-md bg-yellow-500 text-white px-4 py-2 hover:bg-yellow-600"
+                                activeClassName="text-red-500"
+                                className="rounded-md bg-red-500 text-white px-4 py-2 hover:bg-red-600"
                             >
                                 Register
                             </NavLink>
@@ -108,8 +108,8 @@ const LinkItem = (props) => {
         <li className="m-3">
             <NavLink
                 to={to}
-                activeClassName="text-yellow-500"
-                className="text-gray-800 text-medium hover:text-yellow-500"
+                activeClassName="text-red-500"
+                className="text-gray-800 text-medium hover:text-red-500"
             >
                 {title}
             </NavLink>
