@@ -49,7 +49,7 @@ const Home = () => {
                     <img
                         src={currentImage}
                         alt="Car"
-                        className={`max-w-full h-auto z-10 ${fadeTransition ? "fade-out" : "fade-in"}`}
+                        className={`max-w-full h-auto ${fadeTransition ? "fade-out" : "fade-in"}`}
                     />
                 </div>
             </div>
