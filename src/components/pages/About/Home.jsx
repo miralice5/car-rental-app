@@ -4,8 +4,9 @@ import Booking from "../Booking/Booking"
 import dodgeChallenger from "../../../assets/images/Red-Dodge-Challenger-PNG-Pic.png"; // Replace with the actual path to your car image
 import jeepCherokee from "../../../assets/images/2018-Jeep-Cherokee-Firecracker-Red.png";
 import volkswagen from "../../../assets/images/main-car.png";
+import durango from "../../../assets/images/durango.png";
 import heroBg from "../../../assets/images/hero-bg.png";
-const carImages = [dodgeChallenger, jeepCherokee, volkswagen];
+const carImages = [dodgeChallenger, durango, jeepCherokee, volkswagen];
 
 const Home = () => {
 
