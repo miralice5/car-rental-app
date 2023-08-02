@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "./Button/Button";
+import Booking from "../Booking/Booking"
 import carImage from "../../../assets/images/Red-Dodge-Challenger-PNG-Pic.png"; // Replace with the actual path to your car image
 import heroBg from "../../../assets/images/hero-bg.png";
 const Home = () => {
   return (
       <section className="p-6">
-        <div className="flex flex-wrap md:px-4">
+        <div className="flex flex-wrap md:px-4 mb-20">
           <div className="w-full md:w-1/2 leading-relaxed">
             <div className="md:mx-4">
               <h3 className="text-2xl text-gray-800 font-bold mb-4">Plan your trip now</h3>
@@ -25,6 +26,17 @@ const Home = () => {
               <img src={carImage} alt="Car" className="max-w-full h-auto z-10" />
             </div>
           </div>
+        </div>
+        <div className="flex flex-wrap">
+            <div className="w-full leading-relaxed">
+                <div className="md:mx-4">
+                    <div className="w-full leading-relaxed">
+                        <div className="md:mx-4">
+                            <Booking />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
       </section>
   );
