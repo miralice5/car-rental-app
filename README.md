@@ -13,7 +13,7 @@
 
 ## Summary
 
-This is a car rental front-end app that I am building from start to finish for my portfolio.
+This is a car rental front-end open-source app that I am building from start to finish for my portfolio.
 
 The main challenge was finishing a full front-end project website to showcase on my portfolio.
 
