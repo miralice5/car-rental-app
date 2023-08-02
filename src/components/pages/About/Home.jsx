@@ -1,8 +1,8 @@
 import React from "react";
-import Skills from "./Skills/Skills";
+import Button from "./Button/Button";
 import carImage from "../../../assets/images/main-car.png"; // Replace with the actual path to your car image
-
-const About = () => {
+import heroBg from "../../../assets/images/hero-bg.png";
+const Home = () => {
   return (
       <section className="p-6">
         <div className="flex flex-wrap md:px-4">
@@ -17,12 +17,12 @@ const About = () => {
               <p className=" my-4 text-gray-500">
                 Rent the car of your dreams. Unbeatable prices, unlimited miles, flexible pick-up options and much more.
               </p>
-              <Skills />
+              <Button />
             </div>
           </div>
           <div className="w-full md:w-1/2">
-            <div className="md:mx-4 flex items-center justify-center">
-              <img src={carImage} alt="Car" className="max-w-full h-auto" />
+            <div className="md:mx-4 flex items-center justify-center relative">
+              <img src={carImage} alt="Car" className="max-w-full h-auto z-10" />
             </div>
           </div>
         </div>
@@ -30,4 +30,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Home;

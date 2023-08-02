@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, NavLink, Route, Switch } from "react-router-dom";
-import About from "../../pages/About/About";
+import Home from "../../pages/About/Home";
 import VehicleModels from "../../pages/VehicleModels/VehicleModels";
+import Logo from "../../../assets/images/car-rental-logo.png";
 
 const navbarData = [
     {
@@ -42,7 +43,7 @@ const Navbar = () => {
                 <ul className="font-semibold flex justify-between items-center flex-wrap">
                     {/* Logo placeholder */}
                     <div className="pl-12 flex items-center">
-                        <div className="text-gray-800 text-medium px-4">Logo</div>
+                        <img src={Logo} alt="Logo" className="w-20 h-auto" />
                     </div>
 
                     {/* Centered navbar links */}
@@ -78,10 +79,10 @@ const Navbar = () => {
 
             <Switch>
                 <Route exact path="/">
-                    <About />
+                    <Home />
                 </Route>
-                <Route path="/about">
-                    <About />
+                <Route path="/home">
+                    <Home />
                 </Route>
                 <Route path="/vehiclemodels">
                     <VehicleModels />
