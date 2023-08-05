@@ -141,7 +141,7 @@ const VehicleModels = () => {
   };
 
   return (
-      <section className="px-4 py-8">
+      <section className="px-4 py-24">
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div className="md:col-span-1">
             <div className="flex flex-col space-y-2">

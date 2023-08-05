@@ -10,6 +10,7 @@ import Cars from "../../../assets/images/cars.png";
 import Choose from "../Choose/Choose";
 import heroBg from "../../../assets/images/hero-bg.png";
 import Banner from "../Banner/Banner";
+import VehicleModels from "../VehicleModels/VehicleModels";
 
 const carImages = [dodgeChallenger, durango, jeepCherokee, volkswagen];
 
@@ -89,10 +90,7 @@ const Home = () => {
             <div className="flex flex-wrap md:px-6 p-2 mb-6">
                 <div className="w-full leading-relaxed">
                     <div className="w-full leading-relaxed">
-                        <div className="text-center md:mx-2">
-                            {Cars}
-                            <Choose/>
-                        </div>
+                            <VehicleModels/>
                     </div>
                 </div>
             </div>
