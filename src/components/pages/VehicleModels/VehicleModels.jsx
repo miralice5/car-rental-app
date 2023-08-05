@@ -2,6 +2,12 @@ import React, { useState } from "react";
 import CarModel from "./CarModel";
 import AudiS1 from "../../../assets/images/audi-s1.png";
 import Challenger from "../../../assets/images/Red-Dodge-Challenger-PNG-Pic.png";
+import Durango from "../../../assets/images/durango.png";
+import Cherokee from "../../../assets/images/2018-Jeep-Cherokee-Firecracker-Red.png";
+import BMWIX from "../../../assets/images/bmw-ix.png";
+import TeslaRoadster from "../../../assets/images/tesla-roadster.png";
+import DodgeChargerDaytona from "../../../assets/images/dodge-charger-daytona.png";
+import ChevyTrax from "../../../assets/images/chevy-trax-2020.png";
 import CarDetails from "./CarDetails";
 
 const vehicleModelsData = [
@@ -31,6 +37,96 @@ const vehicleModelsData = [
       year: "2020",
       color: "Red",
       doors: "2 Door",
+      transmission: "Automatic",
+      fuel: "Gasoline",
+    },
+  },
+  {
+    id: 3,
+    name: "Dodge Durango",
+    image: Durango,
+    description: {
+      rent: "$70",
+      brand: "Dodge",
+      model: "Durango",
+      year: "2019",
+      color: "Red",
+      doors: "4 Door",
+      transmission: "Automatic",
+      fuel: "Gasoline",
+    },
+  },
+  {
+    id: 4,
+    name: "Jeep Cherokee",
+    image: Cherokee,
+    description: {
+      rent: "$64",
+      brand: "Jeep",
+      model: "Cherokee",
+      year: "2018",
+      color: "Red",
+      doors: "4 Door",
+      transmission: "Automatic",
+      fuel: "Gasoline",
+    },
+  },
+  {
+    id: 5,
+    name: "BMW IX",
+    image: BMWIX,
+    description: {
+      rent: "$95",
+      brand: "BMW",
+      model: "IX",
+      year: "2022",
+      color: "Maroon",
+      doors: "4 Door",
+      transmission: "Single-Speed",
+      fuel: "Electric",
+    },
+  },
+  {
+    id: 6,
+    name: "Tesla Roadster",
+    image: TeslaRoadster,
+    description: {
+      rent: "$80",
+      brand: "Tesla",
+      model: "Roadster",
+      year: "2021",
+      color: "Red",
+      doors: "4 Door",
+      transmission: "Single-Speed",
+      fuel: "Electric",
+    },
+  },
+  {
+    id: 7,
+    name: "Dodge Charger Daytona",
+    image: DodgeChargerDaytona,
+    description: {
+      rent: "$100",
+      brand: "Dodge",
+      model: "Charger Daytona",
+      year: "2021",
+      color: "Black",
+      doors: "4 Door",
+      transmission: "Automatic",
+      fuel: "Gasoline",
+    },
+  },
+  {
+    id: 8,
+    name: "Chevrolet Trax",
+    image: ChevyTrax,
+    description: {
+      rent: "$30",
+      brand: "Chevrolet",
+      model: "Trax LT",
+      year: "2020",
+      color: "Black",
+      doors: "4 Door",
       transmission: "Automatic",
       fuel: "Gasoline",
     },
