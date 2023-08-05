@@ -68,7 +68,7 @@ const Navbar = () => {
                             <NavLink
                                 to="/register" // Replace with your register route
                                 activeClassName="text-red-500"
-                                className="rounded-md bg-red-500 text-white px-4 py-2 hover:bg-red-600"
+                                className="rounded-md hover:text-red-500 hover:bg-gray-50 transition ease-out duration-200 text-md text-gray-50 font-bold bg-red-500 border-red-500 border-2 px-4 py-2"
                             >
                                 Register
                             </NavLink>
