@@ -6,6 +6,8 @@ import dodgeChallenger from "../../../assets/images/Red-Dodge-Challenger-PNG-Pic
 import jeepCherokee from "../../../assets/images/2018-Jeep-Cherokee-Firecracker-Red.png";
 import volkswagen from "../../../assets/images/main-car.png";
 import durango from "../../../assets/images/durango.png";
+import Cars from "../../../assets/images/cars.png";
+import Choose from "../Choose/Choose";
 import heroBg from "../../../assets/images/hero-bg.png";
 import Banner from "../Banner/Banner";
 
@@ -84,6 +86,16 @@ const Home = () => {
                 </div>
             </div>
             <Banner/>
+            <div className="flex flex-wrap md:px-6 p-2 mb-6">
+                <div className="w-full leading-relaxed">
+                    <div className="w-full leading-relaxed">
+                        <div className="text-center md:mx-2">
+                            {Cars}
+                            <Choose/>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     );
 };
