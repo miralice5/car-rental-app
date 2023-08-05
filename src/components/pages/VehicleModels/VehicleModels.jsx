@@ -142,6 +142,14 @@ const VehicleModels = () => {
 
   return (
       <section className="px-4 py-24">
+        <div className="text-center md:mx-2">
+          <h3 className="text-2xl text-gray-800 font-medium mb-4">Vehicle Models</h3>
+          <h1 className="text-5xl text-gray-800 font-bold mb-4">
+            Our Rental Fleet
+          </h1>
+          <p className="text-gray-500 mb-12">
+            Choose from a variety of our amazing vehicles to rent for your next adventure or business trip
+          </p>
         <div className="container mx-auto grid md:grid-cols-3 gap-8">
           <div className="md:col-span-1">
             <div className="flex flex-col space-y-2">
@@ -164,6 +172,7 @@ const VehicleModels = () => {
           <div className="md:col-span-1">
             <CarDetails car={selectedCar} />
           </div>
+        </div>
         </div>
       </section>
   );

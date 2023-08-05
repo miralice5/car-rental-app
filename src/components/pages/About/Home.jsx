@@ -36,7 +36,7 @@ const Home = () => {
 
     return (
         <section>
-            <div className="flex flex-wrap md:px-6 px-4 mb-6">
+            <div className="flex flex-wrap md:px-6 px-4 mt-12 mb-6">
                 <div className="w-full md:w-1/2 leading-relaxed">
                     <div className="md:mx-4">
                         <h3 className="text-2xl text-gray-800 font-bold mb-4">Plan your trip now</h3>
