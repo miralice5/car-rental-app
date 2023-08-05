@@ -9,6 +9,10 @@ const Reservation = (props) => {
         "Dodge Durango": require("../../../assets/images/durango.png").default,
         "Jeep Cherokee": require("../../../assets/images/2018-Jeep-Cherokee-Firecracker-Red.png").default,
         "BMW IX": require("../../../assets/images/bmw-ix.png").default,
+        "Dodge Charger Daytona": require("../../../assets/images/dodge-charger-daytona.png").default,
+        "Chevrolet Trax": require("../../../assets/images/chevy-trax-2020.png").default,
+        "Tesla Roadster": require("../../../assets/images/tesla-roadster.png").default,
+        "Audi S1": require("../../../assets/images/audi-s1.png").default,
     };
 
 

@@ -93,11 +93,14 @@ const Booking = () => {
                                     name="carType"
                                     options={[
                                         "Select A Car",
+                                        "Audi S1",
                                         "BMW IX",
+                                        "Chevrolet Trax",
                                         "Dodge Challenger",
-                                        "Dodge Charger",
+                                        "Dodge Charger Daytona",
                                         "Dodge Durango",
-                                        "Jeep Cherokee"
+                                        "Jeep Cherokee",
+                                        "Tesla Roadster",
                                     ]}
                                     onChange={handleInputChange}
                                 />
